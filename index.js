@@ -8,10 +8,6 @@ app.use(express.json());
 
 //body parser middle ware to handle json data
 app.use(express.urlencoded({extended:false}));
-
-
-
-
 // app.use(logger);
 
 
