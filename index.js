@@ -12,9 +12,7 @@ app.use(express.urlencoded({extended:false}));
 // app.get('/',(req,res)=>{
 
 //     res.sendFile(path.join(__dirname,'public','index.html'));
-
 // });
-
 //set static folder
 
 app.use(express.static(path.join(__dirname,'public')));
